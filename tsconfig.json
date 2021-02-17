@@ -20,5 +20,10 @@
     "target": "es2017",
     "types": []
   },
-  "include": ["src/*"]
+  "include": ["src/*"],
+  "references": [
+    {
+      "path": "../translation"
+    }
+  ]
 }
